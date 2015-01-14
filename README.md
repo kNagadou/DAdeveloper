@@ -1,3 +1,2 @@
 # DAdeveloper
-test repository
-hogehoge
+まずはGitHubのお勉強から
