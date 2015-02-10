@@ -14,9 +14,7 @@
 @end
 
 @implementation DATestViewController
-- (IBAction)BackMain1:(UIButton *)sender {
-    [self performSegueWithIdentifier:@"main" sender:self];
-}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
