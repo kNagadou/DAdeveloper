@@ -5,14 +5,18 @@
 //  Created by k_nagadou on 2015/02/09.
 //  Copyright (c) 2015年 k_nagadou. All rights reserved.
 //
-
+#import <UIKit/UIKit.h>
 #import "DATestViewController.h"
 
 @interface DATestViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *gamen2Label;
 
 @end
 
 @implementation DATestViewController
+- (IBAction)BackMain1:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"main" sender:self];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,6 +31,7 @@
 -(void) viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     NSLog(@"passedData=%@", self.passedData);
+    self.gamen2Label.text=self.passedData;
 }
 
 /*
