@@ -6,16 +6,15 @@
 //  Copyright (c) 2015年 k_nagadou. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "MyClass.h"
+#define HELLOWORLD 5
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        MyClass *obj = [[MyClass alloc] init];
+        [obj instanceHello:HELLOWORLD];
+        [MyClass classHello:HELLOWORLD];
     }
-    return 0;
+    return YES;
 }
-
-//void printMsg(void){
-    
-//}

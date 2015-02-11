@@ -420,6 +420,7 @@
 				1939D97B1A88B32D00F5E62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1939D97C1A88B32D00F5E62D /* Build configuration list for PBXNativeTarget "DAHelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +429,7 @@
 				1939D97E1A88B32D00F5E62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
