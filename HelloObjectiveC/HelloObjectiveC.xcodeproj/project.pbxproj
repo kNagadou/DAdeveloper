@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		199BC9E61A8BF036003D4EB9 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BC9E51A8BF036003D4EB9 /* MyClass.m */; };
+		199BC9EA1A8C6852003D4EB9 /* NSString+MyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BC9E91A8C6852003D4EB9 /* NSString+MyCategory.m */; };
 		19E7F3901A88A66200774D09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E7F38F1A88A66200774D09 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,8 @@
 		199BC9E41A8BEDBB003D4EB9 /* MyClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
 		199BC9E51A8BF036003D4EB9 /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 		199BC9E71A8C6682003D4EB9 /* MyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
+		199BC9E81A8C67B8003D4EB9 /* NSString+MyCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MyCategory.h"; sourceTree = "<group>"; };
+		199BC9E91A8C6852003D4EB9 /* NSString+MyCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MyCategory.m"; sourceTree = "<group>"; };
 		19E7F38C1A88A66200774D09 /* HelloObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E7F38F1A88A66200774D09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +68,8 @@
 				199BC9E41A8BEDBB003D4EB9 /* MyClass.h */,
 				199BC9E51A8BF036003D4EB9 /* MyClass.m */,
 				199BC9E71A8C6682003D4EB9 /* MyProtocol.h */,
+				199BC9E81A8C67B8003D4EB9 /* NSString+MyCategory.h */,
+				199BC9E91A8C6852003D4EB9 /* NSString+MyCategory.m */,
 			);
 			path = HelloObjectiveC;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				199BC9E61A8BF036003D4EB9 /* MyClass.m in Sources */,
+				199BC9EA1A8C6852003D4EB9 /* NSString+MyCategory.m in Sources */,
 				19E7F3901A88A66200774D09 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

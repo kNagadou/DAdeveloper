@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         MyClass *obj = [[MyClass alloc] init];
-        [obj hello:HELLOWORLD helloMessage:@"Hello, World!!!"];
+        [obj hello:HELLOWORLD helloMessage:@"Hello, World!!"];
         //[obj instanceHello:HELLOWORLD];
         //[MyClass classHello:HELLOWORLD];
         [obj testNSMutableDictionary];

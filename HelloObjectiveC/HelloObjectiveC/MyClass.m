@@ -7,11 +7,13 @@
 //
 
 #import "MyClass.h"
+#import "NSString+MyCategory.h"
 
 @implementation MyClass
 
 - (void)hello:(int)num helloMessage:(NSString *)msg{
-    if ([msg length]){
+    if ([NSString isEmpty:msg]){
+    //if ([msg length]){
         for (int i = 0; i < num; i++) {
             NSLog(@"%@", msg);
         }
