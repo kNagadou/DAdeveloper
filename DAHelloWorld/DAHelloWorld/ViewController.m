@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "DATestViewController.h"
+#import "NSString+DACategory.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *helloTextF;
@@ -17,12 +18,16 @@
 
 @implementation ViewController
 - (IBAction)hellobutton2:(UIButton *)sender {
-    
-    if ([@"a" isEqualToString:self.helloTextF.text]){
-        [self performSegueWithIdentifier:@"gamen2" sender:self];
+    if (![NSString isEmpty:self.helloTextF.text]){
+        if ([@"a" isEqualToString:self.helloTextF.text]){
+            [self performSegueWithIdentifier:@"gamen2" sender:self];
+        }else {
+            [self performSegueWithIdentifier:@"gamen3" sender:self];
+            
+        }
     }else {
-        [self performSegueWithIdentifier:@"gamen3" sender:self];
-        
+        self.helloLabel.text = @"Empty";
+        NSLog(@"Empty");
     }
 }
 

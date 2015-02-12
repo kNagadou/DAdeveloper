@@ -12,7 +12,7 @@
 @implementation MyClass
 
 - (void)hello:(int)num helloMessage:(NSString *)msg{
-    if ([NSString isEmpty:msg]){
+    if (![NSString isEmpty:msg]){
     //if ([msg length]){
         for (int i = 0; i < num; i++) {
             NSLog(@"%@", msg);

@@ -15,6 +15,7 @@
 		1939D96A1A88B32D00F5E62D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1939D9681A88B32D00F5E62D /* LaunchScreen.xib */; };
 		1939D9761A88B32D00F5E62D /* DAHelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1939D9751A88B32D00F5E62D /* DAHelloWorldTests.m */; };
 		1939D9811A88B9B000F5E62D /* DATestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1939D9801A88B9B000F5E62D /* DATestViewController.m */; };
+		194432841A8C6FE300316AD9 /* NSString+DACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 194432831A8C6FE300316AD9 /* NSString+DACategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,9 @@
 		1939D9751A88B32D00F5E62D /* DAHelloWorldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAHelloWorldTests.m; sourceTree = "<group>"; };
 		1939D97F1A88B9B000F5E62D /* DATestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DATestViewController.h; sourceTree = "<group>"; };
 		1939D9801A88B9B000F5E62D /* DATestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DATestViewController.m; sourceTree = "<group>"; };
+		194432811A8C6E4B00316AD9 /* NSString+DACategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+DACategory.h"; sourceTree = "<group>"; };
+		194432821A8C6EB400316AD9 /* DAProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAProtocol.h; sourceTree = "<group>"; };
+		194432831A8C6FE300316AD9 /* NSString+DACategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DACategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,9 @@
 				1939D9591A88B32D00F5E62D /* Supporting Files */,
 				1939D97F1A88B9B000F5E62D /* DATestViewController.h */,
 				1939D9801A88B9B000F5E62D /* DATestViewController.m */,
+				194432811A8C6E4B00316AD9 /* NSString+DACategory.h */,
+				194432821A8C6EB400316AD9 /* DAProtocol.h */,
+				194432831A8C6FE300316AD9 /* NSString+DACategory.m */,
 			);
 			path = DAHelloWorld;
 			sourceTree = "<group>";
@@ -224,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				194432841A8C6FE300316AD9 /* NSString+DACategory.m in Sources */,
 				1939D9621A88B32D00F5E62D /* ViewController.m in Sources */,
 				1939D9811A88B9B000F5E62D /* DATestViewController.m in Sources */,
 				1939D95F1A88B32D00F5E62D /* AppDelegate.m in Sources */,

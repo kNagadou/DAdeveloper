@@ -11,9 +11,9 @@
 @implementation NSString(MyCategory)
 
 + (BOOL)isEmpty:(NSString *)str{
-    BOOL value = NO;
+    BOOL value = YES;
     if ([str length]){
-        value = YES;
+        value = NO;
     }
     return value;
 }

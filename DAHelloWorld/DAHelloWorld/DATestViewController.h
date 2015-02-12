@@ -11,6 +11,5 @@
 @interface DATestViewController : UIViewController
 
 @property NSString *passedData;
-@property NSString *passedData2;
 
 @end
