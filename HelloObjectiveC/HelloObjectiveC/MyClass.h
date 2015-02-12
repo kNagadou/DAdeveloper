@@ -16,10 +16,13 @@
 @interface MyClass : NSObject
 
 @property NSString *title;
+@property NSString *message;
 
+- (void)hello:(int)num helloMessage:(NSString *)msg;
 - (void)instanceHello:(int)num;
 + (void)classHello:(int)num;
-- (void)printTitle;
+- (void)printTitle:(NSString *)title;
+- (void)testNSMutableDictionary;
 
 - (id)initWithMessage:(NSString*)str withDelegate:(id)delegateObj;
 - (void)setCount:(int)cnt;

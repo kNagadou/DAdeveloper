@@ -7,14 +7,16 @@
 //
 
 #import "MyClass.h"
-#define HELLOWORLD 5
+#define HELLOWORLD 1
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         MyClass *obj = [[MyClass alloc] init];
+        [obj hello:HELLOWORLD helloMessage:@"Hello, World!!!"];
         [obj instanceHello:HELLOWORLD];
         [MyClass classHello:HELLOWORLD];
+        [obj testNSMutableDictionary];
     }
     return YES;
 }
