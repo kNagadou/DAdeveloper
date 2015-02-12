@@ -12,12 +12,7 @@
 
 #endif
 #import <Foundation/Foundation.h>
-
-@protocol DAHelloWorld
-
-- (void)hello:(int)num helloMessage:(NSString *)msg;
-
-@end
+#import "MyProtocol.h"
 
 @interface MyClass : NSObject <DAHelloWorld>
 
