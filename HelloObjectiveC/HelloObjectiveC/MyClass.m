@@ -19,16 +19,19 @@
 }
 
 - (void)testNSMutableDictionary{
-    NSArray *keys = [[NSArray alloc] init];
-    NSArray *values = [[NSArray alloc] init];
     NSMutableDictionary *dict = [[NSMutableDictionary alloc] init];
     [dict setObject:@"John" forKey:@"1"];
     [dict setObject:@"Mary" forKey:@"2"];
     [dict setObject:@"Henry" forKey:@"3"];
     
-    
+    NSLog(@"%@%@", [dict objectForKey:@"1"], [dict objectForKey:@"2"]);
+    //key一覧を出力
+    for (NSString *obj in dict.allKeys){
+        NSLog(@"%@", obj);
+    }
+    //value一覧を出力
     for (NSString *obj in dict.allValues){
-        NSLog(obj);
+        NSLog(@"%@", obj);
     }
 }
 
