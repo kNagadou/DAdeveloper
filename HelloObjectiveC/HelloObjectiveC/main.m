@@ -7,7 +7,7 @@
 //
 
 #import "MyClass.h"
-#define HELLOWORLD 1
+#define HELLOWORLD 5
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
