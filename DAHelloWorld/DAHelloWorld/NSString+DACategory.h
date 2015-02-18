@@ -15,6 +15,5 @@
 @interface NSString (DACategory)
 
 + (BOOL)isEmpty:(NSString *)str;
-//- (BOOL)isEmpty:(NSString *)str;
 
 @end

@@ -31,6 +31,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ntg-Ge-2qk">
+                                <rect key="frame" x="16" y="396" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -72,6 +78,7 @@
                                 </state>
                                 <connections>
                                     <action selector="hellobutton2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PYw-Pd-vrA"/>
+                                    <segue destination="WlA-Bb-co4" kind="presentation" id="WjP-MA-667"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcq-0K-r6f">
@@ -140,6 +147,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fX2-Ul-IIw"/>
+        <segue reference="8MA-hO-Iz1"/>
+        <segue reference="rMG-jn-tSJ"/>
     </inferredMetricsTieBreakers>
 </document>

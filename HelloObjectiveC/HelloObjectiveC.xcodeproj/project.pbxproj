@@ -10,6 +10,7 @@
 		199BC9E61A8BF036003D4EB9 /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BC9E51A8BF036003D4EB9 /* MyClass.m */; };
 		199BC9EA1A8C6852003D4EB9 /* NSString+MyCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 199BC9E91A8C6852003D4EB9 /* NSString+MyCategory.m */; };
 		19E7F3901A88A66200774D09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E7F38F1A88A66200774D09 /* main.m */; };
+		19F5BDDD1A92E2DB0097F554 /* MyHello.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F5BDDC1A92E2DB0097F554 /* MyHello.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +33,8 @@
 		199BC9E91A8C6852003D4EB9 /* NSString+MyCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MyCategory.m"; sourceTree = "<group>"; };
 		19E7F38C1A88A66200774D09 /* HelloObjectiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloObjectiveC; sourceTree = BUILT_PRODUCTS_DIR; };
 		19E7F38F1A88A66200774D09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		19F5BDDB1A92E2C50097F554 /* MyHello.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyHello.h; sourceTree = "<group>"; };
+		19F5BDDC1A92E2DB0097F554 /* MyHello.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHello.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				199BC9E71A8C6682003D4EB9 /* MyProtocol.h */,
 				199BC9E81A8C67B8003D4EB9 /* NSString+MyCategory.h */,
 				199BC9E91A8C6852003D4EB9 /* NSString+MyCategory.m */,
+				19F5BDDB1A92E2C50097F554 /* MyHello.h */,
+				19F5BDDC1A92E2DB0097F554 /* MyHello.m */,
 			);
 			path = HelloObjectiveC;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 			files = (
 				199BC9E61A8BF036003D4EB9 /* MyClass.m in Sources */,
 				199BC9EA1A8C6852003D4EB9 /* NSString+MyCategory.m in Sources */,
+				19F5BDDD1A92E2DB0097F554 /* MyHello.m in Sources */,
 				19E7F3901A88A66200774D09 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

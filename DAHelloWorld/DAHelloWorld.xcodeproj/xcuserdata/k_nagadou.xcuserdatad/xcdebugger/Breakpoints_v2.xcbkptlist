@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DAHelloWorld/NSString+DACategory.m"
-            timestampString = "445412032.114063"
+            timestampString = "445762426.525721"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
             landmarkName = "@implementation NSString(DACategory)"
             landmarkType = "3">
          </BreakpointContent>
