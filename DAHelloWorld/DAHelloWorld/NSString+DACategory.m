@@ -9,15 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "NSString+DACategory.h"
 
+@interface NSString()
+
+@end
+
 @implementation NSString(DACategory)
 
-//- (BOOL)isEmpty:(NSString *)str{
-//   BOOL value = YES;
-//    if ([str length]){
-//        value = NO;
-//    }
-//    return value;
-//}
 + (BOOL)isEmpty:(NSString *)str{
     BOOL value = YES;
     if ([str length]){

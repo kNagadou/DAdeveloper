@@ -12,7 +12,14 @@
 
 #endif
 
-@protocol Ext <NSObject>
+@protocol DACustomDialogDelegate
+- (void)dialogDidClose;
+@end
 
+@interface DACustomDialogViewController : UIViewController
+
+@property id delegate;
+
+- (IBAction)onOkButtonPushed:(UIButton *)sender;
 
 @end
