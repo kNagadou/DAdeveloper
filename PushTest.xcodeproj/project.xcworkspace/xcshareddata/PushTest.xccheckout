@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ECB11823-1F7E-473C-AA8E-5B72A1E80356</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PushTest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>686CA9D8181402906814D322A4EE1EB4C00E7B4A</key>
+		<string>https://github.com/kNagadou/hogehoge.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PushTest/PushTest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>686CA9D8181402906814D322A4EE1EB4C00E7B4A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kNagadou/hogehoge.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>686CA9D8181402906814D322A4EE1EB4C00E7B4A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>686CA9D8181402906814D322A4EE1EB4C00E7B4A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>hogehoge</string>
+		</dict>
+	</array>
+</dict>
+</plist>
